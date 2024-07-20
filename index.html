@@ -3,51 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Información de Fondos</title>
+    <title>Pasamano</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Información de Fondos Comunes de Inversión</h1>
+        <h1>Bienvenidos a Pasamano</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
-            <h2>Adcap Abierto Pymes - Clase A</h2>
-            <p>Información al 25/06/2024</p>
-            <table>
-                <tr>
-                    <th>Fecha</th>
-                    <th>Valor Cuotaparte</th>
-                    <th>Rendimiento</th>
-                </tr>
-                <tr>
-                    <td>25/06/2024</td>
-                    <td>100.23</td>
-                    <td>5.6%</td>
-                </tr>
-                <!-- Añadir más filas según sea necesario -->
-            </table>
+        <section id="about">
+            <h2>Sobre Nosotros</h2>
+            <p>Pasamano es una empresa dedicada a proporcionar soluciones innovadoras en tecnología y finanzas. Nos especializamos en la digitalización de procesos y en brindar herramientas eficientes para mejorar la gestión financiera de nuestros clientes.</p>
         </section>
-        <section>
-            <h2>Otro Fondo</h2>
-            <p>Información al 25/06/2024</p>
-            <table>
-                <tr>
-                    <th>Fecha</th>
-                    <th>Valor Cuotaparte</th>
-                    <th>Rendimiento</th>
-                </tr>
-                <tr>
-                    <td>25/06/2024</td>
-                    <td>105.45</td>
-                    <td>4.2%</td>
-                </tr>
-                <!-- Añadir más filas según sea necesario -->
-            </table>
+        <section id="services">
+            <h2>Servicios</h2>
+            <ul>
+                <li>Asesoría Financiera</li>
+                <li>Desarrollo de Software</li>
+                <li>Consultoría en Transformación Digital</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Puedes contactarnos a través del siguiente formulario:</p>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Información de Fondos</p>
+        <p>&copy; 2024 Pasamano. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
